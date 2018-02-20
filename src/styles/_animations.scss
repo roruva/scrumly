@@ -1,0 +1,48 @@
+$with-check: 0.5em;
+
+@-webkit-keyframes check {
+    0% {
+        height: 0;
+        width: 0;
+    }
+    
+    33.3333% {
+        width: $with-check;
+        height: 0;
+    }      
+}
+
+@-moz-keyframes check {
+    0% {
+        height: 0;
+        width: 0;
+    }
+
+    33.3333% {
+        width: $with-check;
+        height: 0;
+    }
+}
+
+@-ms-keyframes check {
+    0% {
+        height: 0;
+        width: 0;
+    }
+
+    33.3333% {
+        width: $with-check;
+        height: 0;
+    }
+}
+@keyframes check {
+    0% {
+        height: 0;
+        width: 0;
+    }
+
+    33.3333% {
+        width: $with-check;
+        height: 0;
+    }
+}

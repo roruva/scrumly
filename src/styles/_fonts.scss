@@ -1,0 +1,8 @@
+$pathRoboto: '../public/fonts/Roboto/';
+
+@font-face {
+	font-family: 'RobotoRegular';
+	src: url($pathRoboto + 'Roboto-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

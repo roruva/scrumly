@@ -1,0 +1,77 @@
+@import '_colors';
+
+.dashboard{
+    .cnt-controls{
+        // background-color: $gray-dark-2;
+        padding: .5em 1em;
+        border-radius: 5px;
+        .prev{
+            transform: rotate(180deg);
+        }
+        .date{
+            display: inline-block;
+            width: 10em;
+            margin: 0;
+            font-size: 1.4em;
+            font-weight: 500;
+            text-align: center;
+            &.custom{
+                width: 5em;
+            }
+        }
+    }
+    .cnt-calendar{
+        min-height: 20em;
+        margin-top: 1em;
+        padding: 0 0 .5em 0;
+        background-color: $gray-dark-2;
+        border-radius: 5px;
+    }
+    .cnt-day-head{
+        width: 14%;
+        text-align: center;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-color: $gray-dark-2;
+    }
+    .cnt-day{
+        position: relative;
+        width: 14%;
+        height: 4em;
+        text-align: right;
+        font-size: 2em;
+        border: 2px solid $gray-dark-2;
+        background-color: $gray-dark;
+        // border-radius: 1px;
+        .day{
+            position: absolute;
+            right: 0;
+            top: 0;
+            font-size: .8em;
+            padding-right: .2em;
+            &.other-month{
+                opacity: 0.2;
+            }
+        }
+        .today{
+            // color: #1111C0;
+            text-decoration: underline;
+        }
+    }
+    .view-week{
+        .card-header{
+            p{
+                margin: 0;
+                text-align: center;
+            }
+            .day-number{
+                font-size: 1.8em;
+            }
+            .day-name{
+                text-transform: uppercase;
+                font-size: .6em;
+            }
+        }
+    }
+}

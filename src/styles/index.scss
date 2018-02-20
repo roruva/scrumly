@@ -1,0 +1,192 @@
+// @import '_fonts';
+// @import 'custom_bootstrap';
+
+// // Bootstrap library
+// @import 'bootstrap/scss/bootstrap';
+
+// @import '_colors';
+// @import '_animations';
+// @import '_variables';
+
+// body{
+//     background-color: $gray-dark;
+// }
+
+// .app-logo{
+//     width: 30px;
+//     height: 30px;
+// }
+
+// .cnt{
+//     color: #fff;
+//     &.p-r-2{
+//         margin: 1rem 0;
+//         padding: 2rem;
+//         border-radius: $_4px;
+//     }
+//     .card{
+//         background-color: $gray-dark-2;
+//         &.col-*{
+//             padding-left: 0;
+//             padding-right: 0;
+//         }
+//         &.highlight{
+//             border-color: #171784;
+//         }
+//         .card-header{
+//             background-color: darken($gray-dark-2, 5%);
+//         }
+//         .card-body{
+//             .list-group-item{
+//                 background-color: inherit;
+//             }
+//         }
+//     }
+// }
+// .bg-gray-dark{ background-color: darken($gray-dark-2, 5%); }
+
+// .btn{
+//     cursor: pointer;
+// }
+// .cnt-btns{
+//     text-align: center;
+//     margin-top: 3rem;
+//     .btn{
+//         &:first-child(){
+//             margin-right: .5rem;
+//         }
+//         &:last-child(){
+//             margin-left: .5rem;
+//         }
+//     }
+// }
+// .btn-floating{
+//     position: absolute;
+//     width: 2em;
+//     height: 2em;
+//     padding: 0 0.5em .2em 0.5em;
+//     text-align: center;
+//     border-radius: 50%;
+//     background-color: $blue;
+//     color: #fff;
+//     &.right-top{
+//         right: 1em;
+//         top: 1em;
+//     }
+//     &.right-bottom{
+//         right: 1em;
+//         bottom: 1em;
+//     }
+// }
+// .size-3{
+//     width: 3rem;
+//     height: 3rem;
+// }
+// textarea.form-control{
+//     overflow: hidden;
+// }
+
+// .invalid-feedback{
+//     display: block;
+//     & + .form-control{
+//         border-color : red;
+//     }
+// }
+
+// .is-invalid{
+//     .form-control{
+//         border-color : red;
+//     }
+//     .avatar-dropzone{
+//         border-color: red;
+//         .instructions{
+//             color: red;
+//         }
+//     }
+// }
+// .cnt-color-picker{
+//     padding: 1em 0;
+//     .color-label{
+//         display: block;
+//         width: 100%;
+//     }
+//     .form-check-label{ padding-left: 0; }
+//     .cnt-color{
+//         position: relative;
+//         display: inline-block;
+//         width: 2em;
+//         height: 2em;
+//         border-radius: 40% 5%;
+//         cursor: pointer;
+//         input{
+//             position: absolute;
+//             right: 0;
+//             top: 0;
+//             &.hide{
+//                 opacity: 0;
+//                 height: 0;
+//                 width: 0;
+//                 margin: 0;
+//             }
+//             &:checked{
+//                 opacity: 1;
+//                 z-index: 0;
+//                 &:after{
+//                     content: '';
+//                     position: absolute;
+//                     left: -1.5em;
+//                     top: 1em;
+//                     height: 1em;
+//                     width: 0.5em;
+//                     border-right: .2em solid #fff;
+//                     border-top: .2em solid #fff;
+//                     display: block;
+//                     -moz-transform: scaleX(-1) rotate(135deg);
+//                     -ms-transform: scaleX(-1) rotate(135deg);
+//                     -webkit-transform: scaleX(-1) rotate(135deg);
+//                     transform: scaleX(-1) rotate(135deg);
+//                     -moz-transform-origin: left top;
+//                     -ms-transform-origin: left top;
+//                     -webkit-transform-origin: left top;
+//                     transform-origin: left top;
+
+//                     -webkit-animation: check .5s;
+//                     -moz-animation: check .5s ;
+//                     -o-animation: check .5s;
+//                     animation: check .5s;
+                    
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// .avatar-preview{
+//     max-width: 100%;
+//     max-height: 100%;
+//     object-fit: cover;
+//     border-radius: 5px;
+// }
+
+// .avatar-dropzone{
+//     width: 100%;
+//     height: 215px;
+//     border-width: 4px;
+//     border-color: rgb(102, 102, 102);
+//     border-style: dashed;
+//     border-radius: 5px;
+//     text-align: center;
+//     @extend .d-flex;
+//     @extend .align-items-center;
+//     @extend .justify-content-center;
+//     &.file-accepted{
+//         border-color: green;
+//     }
+//     &.file-rejected{
+//         border-color: red;
+//     }
+//     .instructions{
+//         // margin-top: 30%;
+//         text-align: center;
+//     }
+// }
